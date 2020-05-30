@@ -1,0 +1,19 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+service: pubsub
+
+handlers:
+- url: /pubsub/.*
+  script: pubsub.app
+
+#[START env]
+env_variables:
+    GCLOUD_PROJECT: burner-board
+    PUBSUB_TOPIC: burnerboard
+    # This token is used to verify that requests originate from your
+    # application. It can be any sufficiently random string.
+    PUBSUB_VERIFICATION_TOKEN: 1234abc
+#[END env]
+

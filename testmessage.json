@@ -1,0 +1,18 @@
+{
+    "subscription": "projects/burner-board/subscriptions/app-demo",
+    "message": {
+            "publish_time": "2017-10-01T18:15:41.902Z",
+            "attributes": {
+                    "deviceNumId": "2765424799865809",
+                    "deviceId": "bb-candy",
+                    "projectId": "burner-board",
+                    "subFolder": "bbtelemetery",
+                    "deviceRegistryLocation": "us-central1",
+                    "deviceRegistryId": "bb-registry"
+            },
+            "publishTime": "2017-10-01T18:15:41.902Z",
+            "message_id": "156966507472494",
+            "data": "MjAxNy0xMC0wMVQxODoxNTo0MSxbNTY1NCwgNTMsIDIsIDIwMTIsIDM4MDIsIDM5Mjc2LCA2NTM1NywgMzA3OSwgMjU3LCA2NTM1MSwgMTc0MDgsIC0xLCAtMSwgLTEsIC0xLCAtMV0=",
+            "messageId": "156966507472494"
+    }
+}
